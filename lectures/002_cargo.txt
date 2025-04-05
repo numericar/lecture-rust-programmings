@@ -1,0 +1,7 @@
+Cargo
+    เป็น package management ของ rust
+    โดยจะมี main.rs เป็น file เริ่มต้นของโปรเจค
+
+    โดยมีคำสั่งดังนี้
+        - cargo build   : แปรงชุดคำสั่งให้เป็นภาษาเครื่อง
+        - cargo run     : รันโปรเจค
