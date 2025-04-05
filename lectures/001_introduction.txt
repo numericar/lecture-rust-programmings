@@ -1,0 +1,21 @@
+ทำไมจะต้องเรียนภาษา rust ?
+    ภาษา rust สามารถประมวลผลได้รวดเร็วเท่า C/C++ แต่มีความปลอดภัยในการจัดการกับ memory มากกว่า
+    โดย rust สามารถทำได้ดังนี้่
+        1. System Programming
+        2. Embedded System
+        3. Web Server Development
+        4. Game Development
+        5. High Performance Computing
+        6. Finance And Tranding System 
+        7. Security
+
+    
+    โดยสิ่งที่ทำให้ rust แตกต่างจากภาษาอื่น คือ memory safe programing language
+    โดยจะมีดังต่อไปนี้
+        1. ไม่สามารถชี้ไปหาค่าที่เป็น null ได้ เพราะ rust จะไม่มี concept ที่จะเก็บค่า null แต่จะใช้งานเป็น Option<T> แทน เพื่อตรวจสอบว่าค่ายังคงมีอยู่หรือไม่
+           โดยในการ pointer ของ rust จะสามารถการันตีได้ว่าจะไม่ใช่ค่า null แน่นอน
+        2. ไม่สามารถเรียกใช้งานข้อมูล หลังจาก free แล้วได้
+        3. ไม่สามารถ free memory 2 รอบได้กับข้อมูลเดิม
+
+    ** smart pointer เป็นตัวที่ีใช้ในการจัดการกับ raw pointer
+    ** เมื่อข้อมูลอยู่นอก scope การทำงาน มันจะถูก free ทันที
